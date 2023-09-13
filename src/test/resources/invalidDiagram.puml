@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+[core] <<com.example.core..>>
+
+' "invalid" is not defined above
+[core] -> [invalid]
+
+@enduml
